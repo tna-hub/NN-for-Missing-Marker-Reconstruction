@@ -29,7 +29,7 @@ flags.DEFINE_float('variance_of_noise', 0.3, 'Coefficient to be multiplyied on a
 flags.DEFINE_boolean('restore', False,' Whether we restore the model from the checkpoint')
 flags.DEFINE_integer('chkpt_num' , 26920, 'Number of the checkpoint')
 
-flags.DEFINE_boolean('evaluate', False,' Whether we are evaluating the system or optimizing a hyper-parameter')
+flags.DEFINE_boolean('evaluate', True,' Whether we are evaluating the system or optimizing a hyper-parameter')
 
 flags.DEFINE_float('dropout', 0.9, 'Probability to keep the neuron on')
 
